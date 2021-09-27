@@ -7,4 +7,4 @@ Program converts miles to kilometers
   - convert button on click event multiplies miles by 1.60934
   - output is displayed in second textbox
   - error handling
-    - if no value enetered or value is not a number and error messagebox is shown
+    - if no value entered or value is not a number and error messagebox is shown
