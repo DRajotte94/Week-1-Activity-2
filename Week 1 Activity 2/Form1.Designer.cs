@@ -51,7 +51,7 @@ namespace Week_1_Activity_2
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.Location = new System.Drawing.Point(256, 65);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(89, 29);
+            this.textBox1.Size = new System.Drawing.Size(145, 29);
             this.textBox1.TabIndex = 1;
             // 
             // label2
@@ -70,7 +70,7 @@ namespace Week_1_Activity_2
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox2.Location = new System.Drawing.Point(256, 137);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(89, 29);
+            this.textBox2.Size = new System.Drawing.Size(145, 29);
             this.textBox2.TabIndex = 3;
             // 
             // convertButton

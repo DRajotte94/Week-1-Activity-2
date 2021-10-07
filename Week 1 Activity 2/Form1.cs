@@ -22,17 +22,18 @@ namespace Week_1_Activity_2
         {
             // variable for the miles
             double miles; 
-            // attempts to convert the text to a double
-            if (double.TryParse(textBox1.Text, out miles))
+            // attempts to convert the text to a double. If the value is negative or not a number sends error message
+            if (double.TryParse(textBox1.Text, out miles) && miles > 0)
             {
-                // converts the miles to kms the send to the second textbox
+                // converts the miles to kms
                 double kms = miles * 1.60934;
-                textBox2.Text = kms.ToString();
+                // sends the result to the output textbox formatted to always show 3 decimal places
+                textBox2.Text = string.Format("{0:0,0.000}", kms); // credit to Dave from https://www.daveoncsharp.com/2009/09/formatting-decimals-in-csharp/
             }
             else
             {
                 // if the input is unable to be converted to a double an error is displayed in a messagebox
-                MessageBox.Show("Error");
+                MessageBox.Show("Please enter a valid positive number");
             }
         }
     }
