@@ -5,6 +5,6 @@ Program converts miles to kilometers
   - labels provides instructions on where to input data
   - miles are saved as a double
   - convert button on click event multiplies miles by 1.60934
-  - output is displayed in second textbox
+  - output is displayed in second textbox formatted to always show 3 decimal palces
   - error handling
-    - if no value entered or value is not a number and error messagebox is shown
+    - if no value entered, value is not a number, or value is negative an error messagebox is shown
